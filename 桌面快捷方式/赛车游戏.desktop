@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=赛车游戏
+Comment=赛车游戏
+Exec=gnome-terminal -- /bin/bash -ic 'source ~/.bashrc && source ~/.profile && echo "赛车游戏" && echo "————————————————————————" && cd demo/race_game_demo && conda activate demo && python race_game.py; exec bash'
+Terminal=false
+Type=Application
+WorkingDirectory=/home/vitai

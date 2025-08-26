@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=手眼协同
+Comment=手眼协同
+Exec=gnome-terminal -- /bin/bash -ic 'source ~/.bashrc && source ~/.profile && echo "手眼协同" && cd /home/vitai/demo/Gripper-Demos/ && conda activate demo && export QT_QPA_PLATFORM=wayland && ./start_vision.sh; exec bash'
+Terminal=false
+Type=Application
+# echo "cd /home/vitai/demo/Gripper-Demos/ && conda activate demo && ./start_vision.sh"
+# cd /home/vitai/demo/Gripper-Demos/ && conda activate demo && export QT_QPA_PLATFORM=wayland && ./start_vision.sh

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=firefox界面
+Comment=firefox界面
+Exec=gnome-terminal -- /bin/bash -ic 'source ~/.bashrc && source ~/.profile && echo "firefox界面" && echo "————————————————————————" && firefox & cd code/ViTai-SDK-Dev/demo_ui/ && conda activate py312 && export PYTHONPATH=/home/vitai/code/ViTai-SDK-Dev:$PYTHONPATH && uvicorn ws:app --host 0.0.0.0 --port 8765 --ws websockets ; exec bash'
+Terminal=false
+Type=Application
+WorkingDirectory=/home/vitai

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=夹爪开合
+Comment=夹爪开合
+Exec=gnome-terminal -- /bin/bash -ic 'source ~/.bashrc && source ~/.profile && echo "夹爪开合" && echo "W张开 E闭合 Q退出" && echo "————————————————————————" && cheese & cd /home/vitai/demo/Gripper-Demos/ && conda activate demo  && ./start_manual_grasp.sh ; exec bash'
+Terminal=false
+Type=Application
+WorkingDirectory=/home/vitai

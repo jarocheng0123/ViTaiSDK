@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=针扎气球
+Comment=针扎气球
+Exec=gnome-terminal -- /bin/bash -ic 'source ~/.bashrc && source ~/.profile && echo "针扎气球" && echo "UR执行 00/1-balloon1.urp" && echo "————————————————————————" && cd /home/vitai/demo/Gripper-Demos/ && conda activate demo && export QT_QPA_PLATFORM=wayland && ./start_balloon_sence_1.sh; exec bash'
+Terminal=false
+Type=Application
+WorkingDirectory=/home/vitai
